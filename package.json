@@ -1,5 +1,5 @@
 {
-  "name": "CNRI DEV TEAM Mission School",
+  "name": "@cnri/mission-school",
   "version": "1.0.0",
   "main": "index.js",
   "description": "testing package publishing",
