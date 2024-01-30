@@ -1,21 +1,21 @@
 {
   "name": "@cnrikorea/mission-school",
-  "version": "1.0.1",
-  "main": "index.js",
-  "description": "testing package publishing",
-  "scripts": {
-    "start": "nodemon index.ts"
+  "version": "0.0.1",
+  "description": "create default mission template",
+  "type": "module",
+  "bin": "src/command.js",
+  "files": [
+    "src"
+  ],
+  "script": {
+    "dev": "node src/command.js"
   },
-  "author": "July249",
+  "author": "CNRI Korea",
   "license": "MIT",
   "packageManager": "yarn@4.0.2",
-  "devDependencies": {
-    "@types/node": "^20.11.3",
-    "eslint": "^8.56.0",
-    "json-server": "^1.0.0-alpha.21",
-    "nodemon": "^3.0.2",
-    "prettier": "^3.2.2",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.3.0",
+    "inquirer": "^8.2.4"
   }
 }
