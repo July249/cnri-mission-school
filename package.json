@@ -1,10 +1,10 @@
 {
-  "name": "@jbro249/my-cli",
-  "version": "1.0.0",
+  "name": "@cnrikorea/mission-school",
+  "version": "1.0.6",
   "description": "",
   "type": "module",
   "bin": {
-    "aaa": "src/cli.js"
+    "class": "src/cli.js"
   },
   "files": [
     "src"
@@ -17,6 +17,8 @@
   "license": "ISC",
   "packageManager": "yarn@4.1.0",
   "dependencies": {
-    "commander": "^11.1.0"
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "inquirer": "^9.2.13"
   }
 }

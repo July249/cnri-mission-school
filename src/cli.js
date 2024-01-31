@@ -4,14 +4,19 @@ import { Command } from 'commander';
 
 const program = new Command();
 
-program.name('My CLI').description('My CLI description');
+program.name('Mission School').description('CNRI Korea Mission School');
 
-program.command('todo')
-    .description('Add a new todo to Things app')
-    .argument('<todo>', 'todo text to add')
-    .option('-t, --today', 'is this for today?')
-    .action((todo, options) => {
-        console.log('todo!', { todo, options});
+program.command('open')
+    .description('Add a new class for CNRI Korea dev team')
+    .argument('[className]', 'class name to open like m101')
+    .option('-d, --directory [path]', 'set directory for class files', '.')
+    .action((className, options) => {
+        if (process.argv[4] === '--directory' || process.argv[4] === '-d') {
+            console.log('directory option is set!');
+            console.log('directory path is', options.directory);
+        }
+        console.log(process.argv);
+        console.log('open semester!', { className, options });
     });
 
 program.parse();
