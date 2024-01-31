@@ -8,5 +8,7 @@ __metadata:
 "@jbro249/my-cli@workspace:.":
   version: 0.0.0-use.local
   resolution: "@jbro249/my-cli@workspace:."
+  bin:
+    my-cli: src/cli.js
   languageName: unknown
   linkType: soft
