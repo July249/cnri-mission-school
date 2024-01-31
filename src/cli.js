@@ -14,6 +14,9 @@ program.command('open')
         if (process.argv[4] === '--directory' || process.argv[4] === '-d') {
             console.log('directory option is set!');
             console.log('directory path is', options.directory);
+        } else {
+            console.log('directory option is not set!')
+            console.log('directory path is', '.');
         }
         console.log(process.argv);
         console.log('open semester!', { className, options });
