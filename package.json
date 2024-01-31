@@ -1,21 +1,10 @@
 {
-  "name": "@cnrikorea/mission-school",
-  "version": "0.0.1",
-  "description": "create default mission template",
-  "type": "module",
-  "bin": "src/command.js",
-  "files": [
-    "src"
-  ],
-  "script": {
-    "dev": "node src/command.js"
+  "name": "@jbro249/my-cli",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "CNRI Korea",
-  "license": "MIT",
-  "packageManager": "yarn@4.0.2",
-  "dependencies": {
-    "chalk": "^4.1.2",
-    "commander": "^9.3.0",
-    "inquirer": "^8.2.4"
-  }
+  "author": "",
+  "license": "ISC"
 }
