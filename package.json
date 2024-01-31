@@ -2,6 +2,7 @@
   "name": "@jbro249/my-cli",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "bin": {
     "aaa": "src/cli.js"
   },
